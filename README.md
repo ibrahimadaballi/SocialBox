@@ -14,7 +14,7 @@ install-sb.sh
 SocialBox.sh
 ```
 # Screenshots :
-![Test Image 8](https://raw.githubusercontent.com/TunisianEagles/SocialBox/master/Screenshots/sb.png)
+![Test Image 8](https://raw.githubusercontent.com/ibrahim21/SocialBox/master/Screenshots/sb.png)
 # Tested On :
 * Backbox termux
 * Ubuntu 
@@ -22,8 +22,7 @@ SocialBox.sh
 # Contact
 * [Contact]https://instagram.com/_xiyanet_21_?igshid=YmMyMTA2M2Y=) - İbrahim Adaballi 
 # Authors :
-* facebook  : Imad
-* gmail     : Ha3MrX
-* instagram : thelinuxchoice
-* Twitter   : thelinuxchoice
+* Tiktok     : 
+* instagram : _xiyanet_21_
+* Twitter   : adaballi_ibrahim
 * SocialBox : İbrahim Adaballi 
