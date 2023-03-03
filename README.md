@@ -14,9 +14,9 @@ install-sb.sh
 SocialBox.sh
 ```
 # Screenshots :
-![Test Image 8](https://raw.githubusercontent.com/ibrahim21/SocialBox/master/Screenshots/sb.png)
+![Test Image 8](https://raw.githubusercontent.com/TunisianEagles/SocialBox/master/Screenshots/sb.png)
 # Tested On :
-* Backbox termux
+* Backbox linux
 * Ubuntu 
 * Kali linux
 # Contact
