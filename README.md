@@ -22,7 +22,7 @@ SocialBox.sh
 # Contact
 * [Contact]https://instagram.com/_xiyanet_21_?igshid=YmMyMTA2M2Y=) - İbrahim Adaballi 
 # Authors :
-* Tiktok     : 
+* Tiktok     : adaballi_ibrahim2147
 * instagram : _xiyanet_21_
 * Twitter   : adaballi_ibrahim
 * SocialBox : İbrahim Adaballi 
