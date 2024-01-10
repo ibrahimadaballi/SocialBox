@@ -1,4 +1,4 @@
-# InstaInsane v1.0
+# InstaInsane v2.5
 ## Author: github.com/ibrahim21
 ## IG: instagram.com/ibrahim_adaballi_21_
 ### Don't copy this code without giving me the credits, nerd! 
