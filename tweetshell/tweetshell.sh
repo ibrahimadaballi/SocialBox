@@ -1,7 +1,7 @@
 #!/bin/bash
-# Tweetshell v1.0
-# Coded by: github.com/thelinuxchoice
-# Instagram: @thelinuxchoice
+# Tweetshell v1.5
+# Coded by: github.com/ibrahim21
+# Instagram: @ibrahim_adaballi_21_
 
 trap 'store;exit 1' 2
 
@@ -29,7 +29,7 @@ printf "\e[1;36m    _| || |_    | \ \ /\ / / _ \/ _ \ __\e[1;92m/ __| '_ \ / _ \
 printf "\e[1;36m   |_  __  _|   | |\ V  V /  __/  __/ |_\e[1;92m\__ \ | | |  __/ | | \e[0m\n"
 printf "\e[1;36m     |_||_|     \_/ \_/\_/ \___|\___|\__\e[1;92m|___/_| |_|\___|_|_| \e[0m\n"
 printf "\n"
-printf "\e[1;77m\e[44m Twitter BruteForcer v1.0 Author: thelinuxchoice (Github/IG)\e[0m\n"
+printf "\e[1;77m\e[44m Twitter BruteForcer v1.0 Author: ibrahim Adaballi (Github/IG)\e[0m\n"
 printf "\n"
 }
 
