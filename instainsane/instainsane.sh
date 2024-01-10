@@ -1,7 +1,7 @@
 #!/bin/bash
-# Coded by: thelinuxchoice (Don't change, noob!)
-# www.github.com/thelinuxchoice
-# www.instagram.com/linux_choice
+# Coded by: ibrahim Adaballi, HACKIBRA4 (Don't change, noob!)
+# www.github.com/ibrahim21
+# www.instagram.com/ibrahim_adaballi_21_
 
 trap 'store; exit 1;' 2
 
@@ -36,7 +36,7 @@ printf "\e[1;95m | || '_ \ / __|| __| / _\` |   \e[0m\e[1;91m/ /\/| '_ \ / __| /
 printf "\e[1;95m | || | | |\__ \| |_ | (_| |\e[0m\e[1;91m/\/ /_  | | | |\__ \| (_| || | | ||  __/ \e[0m\n"
 printf "\e[1;77m |_||_| |_||___/ \__| \__,_|\e[0m\e[1;77m\____/  |_| |_||___/ \__,_||_| |_| \___| \e[0m\n"
 printf "\n"
-printf "\e[1;77m\e[41m  Instagram Brute Forcer v1.0, Author: @thelinuxchoice (Github/IG)  \e[0m\n" #Don't change, noob
+printf "\e[1;77m\e[41m  Instagram Brute Forcer v2.5, Author: @ibrahim Adaballi (Github/IG)  \e[0m\n" #Don't change, noob
 printf "\n"
 }
 
@@ -93,7 +93,7 @@ if [[ ! -d multitor ]]; then
 mkdir multitor;
 printf "SOCKSPort 9050\nDataDirectory /var/lib/tor1" > multitor/multitor1
 printf "SOCKSPort 9052\nDataDirectory /var/lib/tor2" > multitor/multitor2
-printf "SOCKSPort 9053\nDataDirectory /var/lib/tor3" > multitor/multitor6
+printf "SOCKSPort 9053\nDataDirectory /var/lib/tor3" > multitor/multitor3
 printf "SOCKSPort 9054\nDataDirectory /var/lib/tor4" > multitor/multitor4
 printf "SOCKSPort 9055\nDataDirectory /var/lib/tor5" > multitor/multitor5
 fi
