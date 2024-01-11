@@ -20,7 +20,7 @@ SocialBox.sh
 * Ubuntu 
 * Kali linux
 # Contact
-* [Contact]https://instagram.com/_xiyanet_21_?igshid=YmMyMTA2M2Y=) - İbrahim Adaballi 
+* [Contact]: İbrahim Adaballi 
 # Authors :
 * Tiktok     : adaballi_ibrahim2147
 * instagram :ibrahim_adaballi_21
