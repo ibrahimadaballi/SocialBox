@@ -22,7 +22,7 @@ chmod +x install.sh
  ./install.sh
 cd ..
 #Twitter
-https://github.com/ibrhim21/SocialBox/tree/main/tweetshell.git
+git clone https://github.com/ibrhim21/SocialBox/tree/main/tweetshell.git
 cd tweetshell
 chmod +x tweetshell.sh
 chmod +x install.sh
