@@ -93,7 +93,7 @@ if [[ ! -d multitor ]]; then
 mkdir multitor;
 printf "SOCKSPort 9050\nDataDirectory /var/lib/tor1" > multitor/multitor1
 printf "SOCKSPort 9052\nDataDirectory /var/lib/tor2" > multitor/multitor2
-printf "SOCKSPort 9053\nDataDirectory /var/lib/tor3" > multitor/multitor3
+printf "SOCKSPort 9053\nDataDirectory /var/lib/tor3" > multitor/multitor6
 printf "SOCKSPort 9054\nDataDirectory /var/lib/tor4" > multitor/multitor4
 printf "SOCKSPort 9055\nDataDirectory /var/lib/tor5" > multitor/multitor5
 fi
