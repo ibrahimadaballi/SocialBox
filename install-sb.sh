@@ -15,14 +15,14 @@ else
 	cd ..
 fi
 #Instagram
-git clone https://github.com/ibrahim21/instainsane.git
+ git clone https://github.com/ibrhim21/SocialBox/tree/main/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
 chmod +x install.sh
  ./install.sh
 cd ..
 #Twitter
-git clone https://github.com/ibrahim21/tweetshell.git
+https://github.com/ibrhim21/SocialBox/tree/main/tweetshell.git
 cd tweetshell
 chmod +x tweetshell.sh
 chmod +x install.sh
