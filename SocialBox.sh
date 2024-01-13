@@ -143,33 +143,6 @@ cd .. && bash SocialBox.sh
 else
 exit 1
 fi
-elif [ $ch = 5 ]; then
-echo -e "			$Cyan Instagram Brute Force 2$nc"
-cd SocialBox/
-sleep 0.025
-        echo -e "	[+]$red Service Tor Started $nc[+]"
-sleep 0.9
-sv tor start
-python instabf.py
-echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
-sv tor stop
-echo -e "		[+]$red Service Tor Stopped$nc [+]"
-echo -e "$red"
-read -p "Wanna Back To Main Menu [ Y / n ] : " check5
-echo -e "$nc"
-if [ $check5 = "Y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check5 = "y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check5 = "Yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check5 = "yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check5 = "YES" ]; then
-cd .. && bash SocialBox.sh
-else
-exit 1
-fi
 elif [ $ch == 99 ]; then
 echo -e "$red Program Exit ...$nc"
 sleep 0.25
