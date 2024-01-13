@@ -29,8 +29,8 @@ fi
 sleep 2
 clear
 figlet Installing ...
-figlet instagram bf1
-#Instagram 1
+figlet instagram
+#Instagram 
 #git clone https://github.com/ibrhim21/SocialBox/tree/main/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
@@ -40,7 +40,7 @@ cd ..
 sleep 2
 clear
 figlet Installing ...
-figlet twitter bf
+figlet twitter
 #Twitter
 #git clone https://github.com/imprithwishghosh/-tweetshell-.git
 cd tweetshell
@@ -48,13 +48,10 @@ chmod +x tweetshell.sh
 chmod +x install.sh
 ./install.sh
 cd ..
-clear
-figlet Installing ...
-figlet instagram bf 2
-# instagram 2
-git clone
-https://github.com/ibrhim21/SocialBox.git
-cd SocialBox
-bash ./andriod_setup.sh	>> /dev/null
-clear
-figlet done
+#Instagram
+git clone https://github.com/thelinuxchoice/instainsane.git
+cd instainsane
+chmod +x instainsane.sh
+chmod +x install.sh
+./install.sh
+cd ..
