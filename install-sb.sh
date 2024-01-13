@@ -37,12 +37,8 @@ chmod +x instainsane.sh
 chmod +x install.sh
 ./install.sh
 cd ..
-sleep 2
-clear
-figlet Installing ...
-figlet twitter
 #Twitter
-#git clone https://github.com/imprithwishghosh/-tweetshell-.git
+git clone https://github.com/ibrhim21/SocialBox/tree/main/tweetshell.git
 cd tweetshell
 chmod +x tweetshell.sh
 chmod +x install.sh
