@@ -31,7 +31,7 @@ clear
 figlet Installing ...
 figlet instagram bf1
 #Instagram 1
-#git clone https://github.com/umeshshinde19/instainsane.git
+#git clone https://github.com/ibrhim21/SocialBox/tree/main/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
 chmod +x install.sh
@@ -52,8 +52,9 @@ clear
 figlet Installing ...
 figlet instagram bf 2
 # instagram 2
-git clone https://github.com/samsesh/insta-bf.git
-cd insta-bf 
+git clone
+https://github.com/ibrhim21/SocialBox.git
+cd SocialBox
 bash ./andriod_setup.sh	>> /dev/null
 clear
 figlet done
