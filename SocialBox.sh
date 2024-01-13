@@ -145,7 +145,7 @@ exit 1
 fi
 elif [ $ch = 5 ]; then
 echo -e "			$Cyan Instagram Brute Force 2$nc"
-cd insta-bf/
+cd SocialBox/
 sleep 0.025
         echo -e "	[+]$red Service Tor Started $nc[+]"
 sleep 0.9
