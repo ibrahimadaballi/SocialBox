@@ -12,15 +12,13 @@ Cafe="\033[0;33m"
 Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
-#ROOT PRIVILEGIES
-if [[ $EUID -ne 0 ]]; then
-        echo -e "$red You don't have Root privilegies, execute the script as root.$nc"
-        exit 1
-fi
+
+       echo -e "$red by ibrahim21.$nc"
+
 #Installation
 sleep 1
 echo -e "Checking Installation $nc"
-bash install-sb.sh
+bash install-sb.sh >> /dev/null
 echo -e "Checking Completed [$green✓$nc] $nc "
 sleep 1
 clear
@@ -30,17 +28,19 @@ echo "		.▄▄ ·        ▄▄· ▪   ▄▄▄· ▄▄▌      ▄▄▄▄
 echo "		▐█ ▀. ▪     ▐█ ▌▪██ ▐█ ▀█ ██•      ▐█ ▀█▪▪      █▌█▌▪"
 echo "		▄▀▀▀█▄ ▄█▀▄ ██ ▄▄▐█·▄█▀▀█ ██▪      ▐█▀▀█▄ ▄█▀▄  ·██· "
 echo "		▐█▄▪▐█▐█▌.▐▌▐███▌▐█▌▐█ ▪▐▌▐█▌▐▌    ██▄▪▐█▐█▌.▐▌▪▐█·█▌"
-echo -e "		 ▀▀▀▀  ▀█▄▀▪·▀▀▀ ▀▀▀ ▀  ▀ .▀▀▀     ·▀▀▀▀  ▀█▄▀▪•▀▀ ▀▀$nc $blue v3.5$nc"
-echo -e "	[+]              $red Coded By İbrahim Adaballi$nc         		   [+]"
-echo -e "	[+] 		 $red Greetings to all HACKİBRA4 lovers$nc          		   [+]"
-echo -e "	[+]$red Special HACKIBRA4 To$nc :$green {İbrahim Adaballi,Hackibra4}$nc [+]"
+echo -e "		 ▀▀▀▀  ▀█▄▀▪·▀▀▀ ▀▀▀ ▀  ▀ .▀▀▀     ·▀▀▀▀  ▀█▄▀▪•▀▀ ▀▀$nc $blue v2.beta$nc"
+#echo -e "	[+]              $red Coded By ibrahim21$nc         		    [+]"
+#echo -e "	[+] 		 $red  https://hackibra4.free.nf$nc 		            [+]"
+#echo -e "	[+] 		 $red Greetz To All Pentesters$nc          		    [+]"
+#echo -e "	[+]$red Special Greetz To$nc :$green {İbrahim Adaballi hackibra4}$nc [+]"
 echo ""
 echo -e "$yellow Select From Menu : $nc"
 echo ""
 echo -e "		$Cyan 1 : Brute Force Facebook Account$nc"
 echo -e "		$Cyan 2 : Brute Force Gmail Account$nc"
-echo -e "		$Cyan 3 : Brute Force Instagram Account$nc"
+echo -e "		$Cyan 3 : Brute Force Instagram Account 1$nc"
 echo -e "		$Cyan 4 : Brute Force Twitter Account$nc"
+echo -e "		$Cyan 5 : Brute Force Instagram Account 2 $nc"
 echo -e "		$Cyan 99: Exit$nc"
 read -p "Choice >  " ch
 if [ $ch = 1 ]; then
@@ -71,7 +71,7 @@ fi
 elif [ $ch = 2 ]; then
 echo -e "			$Cyan Gmail Brute Force$nc"
 cd Gemail-Hack
-python gemailhack.py
+python2 gemailhack.py
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check2
@@ -90,16 +90,16 @@ else
 exit 1
 fi
 elif [ $ch = 3 ]; then
-echo -e "			$Cyan Instagram Brute Force$nc"
+echo -e "			$Cyan Instagram Brute Force 1$nc"
 cd instainsane/
 sleep 0.025
-	echo -e "	[+]$red Service Tor Stated $nc[+]"
+	echo -e "	[+]$red tor $nc[+]"
 sleep 0.9
-service tor start
+sv tor start
 ./instainsane.sh
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
-service tor stop
-echo -e "		[+]$red Service Tor Stopped$nc [+]"
+sv tor stop
+#echo -e "		[+]$red Service Tor Stopped$nc [+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check3
 echo -e "$nc"
@@ -122,10 +122,10 @@ cd tweetshell/
 sleep 0.025
         echo -e "	[+]$red Service Tor Stated $nc[+]"
 sleep 0.9
-service tor start
+sv tor start
 bash tweetshell.sh
 echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
-service tor stop
+sv tor stop
 echo -e "		[+]$red Service Tor Stopped$nc [+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check4
@@ -139,6 +139,33 @@ cd .. && bash SocialBox.sh
 elif [ $check4 = "yes" ]; then
 cd .. && bash SocialBox.sh
 elif [ $check4 = "YES" ]; then
+cd .. && bash SocialBox.sh
+else
+exit 1
+fi
+elif [ $ch = 5 ]; then
+echo -e "			$Cyan Instagram Brute Force 2$nc"
+cd insta-bf/
+sleep 0.025
+        echo -e "	[+]$red Service Tor Started $nc[+]"
+sleep 0.9
+sv tor start
+python instabf.py
+echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
+sv tor stop
+echo -e "		[+]$red Service Tor Stopped$nc [+]"
+echo -e "$red"
+read -p "Wanna Back To Main Menu [ Y / n ] : " check5
+echo -e "$nc"
+if [ $check5 = "Y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "y" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "Yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "yes" ]; then
+cd .. && bash SocialBox.sh
+elif [ $check5 = "YES" ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
