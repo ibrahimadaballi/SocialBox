@@ -1,6 +1,6 @@
 #!/bin/bash
 # Coded by: ibrahim Adaballi, HACKIBRA4 (Don't change, noob!)
-# www.github.com/ibrahim21
+# www.github.com/ibrahimadaballi
 # www.instagram.com/ibrahim_adaballi_21_
 
 trap 'store; exit 1;' 2
