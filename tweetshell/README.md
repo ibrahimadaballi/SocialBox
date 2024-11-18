@@ -22,7 +22,7 @@ Usage of TweetShell for attacking targets without prior mutual consent is illega
 
 ### Usage:
 ```
-git clone https://github.com/ibrahimadaballi/tweetshell
+git clone https://github.com/ibrahimadaballi/tweetshell.git
 cd tweetshell
 chmod +x tweetshell.sh
 service tor start
