@@ -1,11 +1,11 @@
 # SocialBox
-<a href='https://codespaces.new/ibrhim21/SocialBox'><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
+<a href='https://codespaces.new/ibrahimadaballi/SocialBox'><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
 SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitter ] , Coded By Belahsan Ouerghi
 # Installation
 ```
 apt-get update
 apt-get install git
-git clone https://github.com/ibrahim21/SocialBox.git 
+git clone https://github.com/ibrahimadaballi/SocialBox.git 
 cd SocialBox
 chmod +x install-sb.sh
 ./install-sb.sh
