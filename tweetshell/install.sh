@@ -1,5 +1,5 @@
 #!/bin/bash
-#Author: github.com/ibrahim21
+#Author: github.com/ibrahimadaballi
 #Instagram: @ibrahim_adaballi_21_
 trap 'echo exiting cleanly...; exit 1;' SIGINT SIGTSTP
 
