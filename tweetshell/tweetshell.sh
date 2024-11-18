@@ -1,6 +1,6 @@
 #!/bin/bash
 # Tweetshell v1.5
-# Coded by: github.com/ibrahim21
+# Coded by: github.com/ibrahimadaballi
 # Instagram: @ibrahim_adaballi_21_
 
 trap 'store;exit 1' 2
