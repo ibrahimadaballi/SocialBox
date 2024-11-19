@@ -13,10 +13,6 @@ figlet Installing ...
 #gmail
 figlet gmail bf
 git clone https://github.com/ibrahimadaballi/Gemail-Hack.git >> /dev/null
-cd Gemail-Hack
-chmod +x gemailhack.py
-python gemailhack.py
-cd ..
 sleep 2
 clear
 figlet Installing ...
