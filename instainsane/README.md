@@ -19,7 +19,7 @@ Usage of InstaInsane for attacking targets without prior mutual consent is illeg
 
 ### Usage:
 ```
-https://github.com/ibrahimadaballi/SocialBox/tree/main/instainsane.git
+https://github.com/ibrahimadaballi/SocialBox/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
 sudo ./instainsane.sh
