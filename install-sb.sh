@@ -14,8 +14,8 @@ figlet Installing ...
 figlet gmail bf
 git clone https://github.com/ibrahimadaballi/SocialBox/Gemail-Hack.git >> /dev/null
 cd Gemail-Hack
-chmod +x instainsane.sh
-chmod +x install.sh
+chmod +x gemailhack.py
+python gemailhack.py
 ./install.sh
 cd ..
 sleep 2
