@@ -12,7 +12,7 @@ sleep 2
 figlet Installing ...
 #gmail
 figlet gmail bf
-git clone https://github.com/ibrahimadaballi/Gemail-Hack.git >> /dev/null
+git clone https://github.com/ibrahimadaballi/SocialBox/Gemail-Hack.git >> /dev/null
 sleep 2
 clear
 figlet Installing ...
