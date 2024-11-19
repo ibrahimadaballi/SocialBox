@@ -31,14 +31,14 @@ clear
 figlet Installing ...
 figlet instagram
 #Instagram 
-git clone https://github.com/ibrahimadaballi/SocialBox/tree/main/instainsane.git
+git clone https://github.com/ibrahimadaballi/SocialBox/instainsane.git
 cd instainsane
 chmod +x instainsane.sh
 chmod +x install.sh
 ./install.sh
 cd ..
 #Twitter
-git clone https://github.com/ibrahimadaballi/SocialBox/tree/main/tweetshell.git
+git clone https://github.com/ibrahimadaballi/tweetshell.git
 cd tweetshell
 chmod +x tweetshell.sh
 chmod +x install.sh
